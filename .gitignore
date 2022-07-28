@@ -1,0 +1,12 @@
+*
+!*/
+
+!/.gitignore
+
+!.gitconfig
+
+!init.sh
+
+!.config/i3/*
+!.config/i3status/*
+!.config/dunst/*
