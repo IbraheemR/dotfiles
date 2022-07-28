@@ -2,7 +2,8 @@
 
 sudo apt update
 
-sudo apt install -y git curl i3 zsh feh
+sudo apt install -y git curl i3 zsh feh firefox
+sudo snap install code --classic
 
 # if ohmy zsh is not installed, install it
 if [ ! -d ~/.oh-my-zsh ]; then
