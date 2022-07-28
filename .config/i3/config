@@ -9,7 +9,6 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -47,7 +46,6 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+t exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -193,3 +191,5 @@ exec --no-startup-id feh --bg-fill /home/ibraheem/wallpaper.jpg
 exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 bindsym $mod+Shift+f exec firefox
+
+bindsym $mod+t exec i3-sensible-terminal
