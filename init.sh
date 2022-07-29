@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y git curl i3 zsh feh firefox
+sudo apt install -y git curl i3 zsh feh firefox imagemagick xclip
 sudo snap install code --classic
 
 # if ohmy zsh is not installed, install it
