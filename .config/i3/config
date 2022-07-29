@@ -198,3 +198,5 @@ bindsym $mod+l exec i3lock
 
 # take a screenshot of an area to the clipboard
 bindsym --release $mod+Shift+s exec "import png:- | xclip -selection clipboard -t image/png"
+
+# test
