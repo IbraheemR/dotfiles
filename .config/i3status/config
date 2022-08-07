@@ -19,6 +19,7 @@ order += "cpu_temperature 0"
 order += "memory"
 order += "disk /"
 order += "battery all"
+order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
@@ -56,4 +57,10 @@ tztime local {
 
 battery all {
         format = "%status %percentage %remaining"
+}
+
+volume master {
+        format = "VOL: %volume"
+        format_muted = "VOL: MUT"
+        device = "pulse:1"
 }
