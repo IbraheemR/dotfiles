@@ -15,7 +15,6 @@ order += "ipv6"
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "load"
-order += "cpu_temperature 0"
 order += "memory"
 order += "disk /"
 order += "battery all"
@@ -37,12 +36,7 @@ disk "/" {
 }
 
 load {
-        format = "CPU: %1min\%"
-}
-
-cpu_temperature 0 {
-        format = "T: %degrees °C"
-        path = "/sys/devices/platform/coretemp.0/temp1_input"
+        format = "CPU: %1min"
 }
 
 memory {
@@ -52,7 +46,7 @@ memory {
 }
 
 tztime local {
-        format = "T: %Y-%b-%d %H:%M:%S"
+        format = "T: %Y-%b-%d (%a) %H:%M:%S"
 }
 
 battery all {
