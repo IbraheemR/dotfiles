@@ -32,7 +32,7 @@ ethernet _first_ {
 }
 
 disk "/" {
-        format = "SSD: %avail"
+        format = "SSD: %avail free"
 }
 
 load {
@@ -40,7 +40,7 @@ load {
 }
 
 memory {
-        format = "RAM: %used | %available"
+        format = "RAM: %available free"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
