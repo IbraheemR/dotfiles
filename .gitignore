@@ -7,11 +7,10 @@ Desktop/
 .oh-my-zsh/
 
 !/.gitignore
+!/.gitconfig
 
-!.gitconfig
+!/init.sh
 
-!init.sh
-
-!.config/i3/*
-!.config/i3status/*
-!.config/dunst/*
+!/.config/i3/*
+!/.config/i3status/*
+!/.config/dunst/*
