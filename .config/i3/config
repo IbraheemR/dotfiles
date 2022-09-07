@@ -196,3 +196,6 @@ bindsym $mod+l exec i3lock -t -i ~/lock.png
 
 # take a screenshot of an area to the clipboard
 bindsym --release $mod+Shift+s exec "import png:- | xclip -selection clipboard -t image/png"
+
+# Try to start Discord on startup
+exec --no-startup-id discord --start-minimized
