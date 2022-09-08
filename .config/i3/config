@@ -187,6 +187,8 @@ bar {
 
 # Custom settings added my me!
 
+focus_follows_mouse no
+
 exec --no-startup-id feh --bg-fill /home/ibraheem/wallpaper.jpg
 exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
