@@ -7,6 +7,8 @@ gems/
 Desktop/
 .oh-my-zsh/
 
+!.zshrc
+
 !/.gitignore
 !/.gitconfig
 
