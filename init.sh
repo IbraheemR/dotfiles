@@ -3,9 +3,7 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y git curl i3 zsh feh firefox imagemagick xclip
-sudo snap install code --classic
-sudo snap install discord
+sudo apt install -y git curl i3 zsh feh imagemagick xclip
 
 # if ohmy zsh is not installed, install it
 if [ ! -d ~/.oh-my-zsh ]; then
@@ -13,5 +11,7 @@ if [ ! -d ~/.oh-my-zsh ]; then
 fi
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false
 
 sudo apt autoremove -y

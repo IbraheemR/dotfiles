@@ -15,6 +15,7 @@ Desktop/
 !/.gitconfig
 
 !/init.sh
+!/init_full.sh
 
 !/.config/i3/*
 !/.config/i3status/*
