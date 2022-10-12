@@ -1,3 +1,10 @@
 [user]
 	name = Ibraheem Rodrigues
 	email = 28712361+IbraheemR@users.noreply.github.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[safe]
+	directory = /home/ibraheem/Desktop/oxcompsocnet/public/wp-content/themes/storefront
