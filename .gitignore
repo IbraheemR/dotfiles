@@ -6,6 +6,8 @@
 gems/
 Desktop/
 .oh-my-zsh/
+.cache/
+.SpaceVim
 
 !.zshrc
 
