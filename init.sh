@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y git curl i3 zsh feh imagemagick xclip
+sudo apt install -y git curl i3 zsh feh imagemagick xclip policykit-desktop-privileges policykit-1-gnome
 
 # if ohmy zsh is not installed, install it
 if [ ! -d ~/.oh-my-zsh ]; then
